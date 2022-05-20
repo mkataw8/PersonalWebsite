@@ -1,0 +1,33 @@
+body{
+    position: fixed;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-style:sans-serif;
+    width:550px;
+
+}
+
+li{
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-family: sans-serif;
+    font-size: 50px;
+    border: 3px solid rgb(223, 223, 223);
+    
+    font-style: italic;
+
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+h1{
+    color:white;
+    font-size: 60px;
+    margin-left: -50px;
+}

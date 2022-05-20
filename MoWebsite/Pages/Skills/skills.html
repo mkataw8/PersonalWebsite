@@ -1,0 +1,113 @@
+<Html>
+  <title>Skills</title>
+    <head>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+        <div class = 'container'>
+            <div class = 'option-1'>
+                <img class='enlarge' src="../images/pc.png" width="200 height="200" onClick=showStuff()>
+              
+            </div>
+            
+            <div class = 'option-2'>
+                <img class='enlarge' src="../images/cloud.png" width="200 height="200" onClick=showStuff1()>
+              
+            </div>
+            <div class = 'option-3'>
+                <img class='enlarge' src="../images/code.png" width="200 height="200" onClick=showStuff2()>
+            </div>
+            <div class = 'option-4'>
+                <img class='enlarge' src="../images/connect.png" width="200 height="200" onClick=showStuff3()>
+            </div>
+            
+        </div>
+        <div class ='hidden1'id="hidden" style="display: none">
+          <p class="text-title">Education / Studies</p>
+          <h2> Graduated From Rutgers Newark in 2022. Completed my 
+            degree Majoring in Computer Science and Minoring in 
+          both Data Science and Mathematics </h2>
+          <h3>Programming Language Concepts, Advanced Data Structures and Algorithms, Intensive Programming,
+            Guided Design in SoLware Engineering, Principles of Operating Systems, Intro to Swift, IOS 
+            Application Development, Database System Design & Management, Everyday Data</h3>
+            
+            
+        </div> 
+        <div class ='hidden1'id="hidden1" style="display: none">
+          <p class="text-title">Cloud / Databases</p>
+          <h2> Worked on Django, MySQL, MongoDB, AWS, Firebase </h2>
+  
+        </div> 
+        <div class ='hidden1'id="hidden2" style="display: none">
+          <p class="text-title">Programming Languages</p>
+          <h2>Proficient = HTML, CSS, JavaScript, React, Python, Java, C++, C  </h2>
+          <h3>Intermediate = SQL, PHP, React Native, Swift, Node, Node, TypeScript, Angular </h3>
+        
+        </div> 
+        <div class ='hidden1'id="hidden3" style="display: none">
+          <p class="text-title">Alternative Applications</p>
+          <h3>Worked with applications such as PhotoShop, Imovie, Excel,
+            Word, GitHub, Zoom, Visual Code, RStudio, Fruity Loops, Logic,
+            DropBox, oneNote, Google Trends, Ameritrade, Canvas, Calender, 
+            Amazon Cloud, Google Cloud, </h3>
+        </div> 
+        <div class="back-bttn">
+        <a href ="../../index.html"><h1>Back</h1></a>
+    </div>
+    </body>
+
+    <script>
+        function showStuff() {
+            let hidden = document.getElementById('hidden');
+            if (hidden.style.display == "none") {
+              hidden.style.display = "block"
+              hidden1.style.display= "none"
+              hidden2.style.display= "none"
+              hidden3.style.display= "none"
+              
+            } else {
+              hidden.style.display = "none"
+              
+            }
+          }
+          function showStuff1() {
+            let hidden1 = document.getElementById('hidden1');
+            if (hidden1.style.display == "none") {
+              hidden1.style.display = "block"
+              hidden.style.display= "none"
+              hidden2.style.display= "none"
+              hidden3.style.display= "none"
+              
+            } else {
+              hidden1.style.display = "none"
+              
+            }
+          }
+          function showStuff2() {
+            let hidden2 = document.getElementById('hidden2');
+            if (hidden2.style.display == "none") {
+              hidden2.style.display = "block"
+              hidden.style.display= "none"
+              hidden1.style.display= "none"
+              hidden3.style.display= "none"
+              
+            } else {
+              hidden2.style.display = "none"
+              
+            }
+          }
+          function showStuff3() {
+            let hidden3 = document.getElementById('hidden3');
+            if (hidden3.style.display == "none") {
+              hidden3.style.display = "block"
+              hidden.style.display= "none"
+              hidden1.style.display= "none"
+              hidden2.style.display= "none"
+              
+            } else {
+              hidden3.style.display = "none"
+              
+            }
+          }
+    </script>
+</Html>

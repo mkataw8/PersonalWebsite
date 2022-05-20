@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height:250px;
+ 
+}
+
+
+p{
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+ul{
+    color:white;
+}
+
+li{
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:rgb(60, 236, 255);
+}
